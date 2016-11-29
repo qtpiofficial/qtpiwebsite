@@ -34,6 +34,7 @@ body, html {
     </li>
     <!-- Right-sided navbar links -->
     <li class="w3-right w3-hide-small">
+    <a href="#home">Home</a>
       <a href="#about">ABOUT</a>
       <!-- <a href="#team"><i class="fa fa-user"></i> TEAM</a> -->
       <a href="#work"><i class="fa fa-th"></i> WORK</a>
@@ -52,8 +53,8 @@ body, html {
 <!-- Sidenav on small screens when clicking the menu icon -->
 <nav class="w3-sidenav w3-black w3-card-2 w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidenav">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-large w3-padding-16">Close ×</a>
+  <a href="#home" onclick="w3_close()">Home</a>
   <a href="#about" onclick="w3_close()">ABOUT</a>
-  <!-- <a href="#team" onclick="w3_close()">TEAM</a> -->
   <a href="#work" onclick="w3_close()">WORK</a>
   <a href="#events" onclick="w3_close()">Events</a>
   <a href="#contact" onclick="w3_close()">CONTACT</a>
@@ -69,12 +70,50 @@ body, html {
   </div> 
   <div class="w3-display-bottomleft w3-padding-xxlarge w3-text-grey w3-large">
     <a href="https://www.facebook.com/qtpirobotics/" class="w3-hover-text-white"  target="_blank"><i class="fa fa-facebook-official"></i></a>
-   <!--  <a href="#" class="w3-hover-text-white"><i class="fa fa-flickr"></i></a> -->
     <a href="https://www.instagram.com/qtpiofficial/" class="w3-hover-text-white"  target="_blank"><i class="fa fa-instagram"></i></a>
     <!-- <a href="#" class="w3-hover-text-white"><i class="fa fa-twitter"></i></a>
     <a href="#" class="w3-hover-text-white"><i class="fa fa-linkedin"></i></a> -->
   </div>
 </header>
+
+<div class="w3-container w3-padding-128">
+  <div class="w3-row-padding">
+    <div class="w3-col m1">
+      <h3>Videos.</h3>
+     
+    </div>
+    <div class="w3-col m6">
+    <div class="robot-embedded-videos"><a id="robot_em_video"><p>&nbsp;</p></a> 
+    <div id="video_cck_youtube_flash_wrapper_5"><object type="application/x-shockwave-flash" height="350" width="425" data="https://www.youtube.com/v/PxdnOPFBDqk&amp;rel=0&amp;fs=1" id="video-cck-youtube-flash-5">
+          <param name="movie" value="https://www.youtube.com/v/PxdnOPFBDqk&amp;rel=0&amp;fs=1"> 
+         <param name="movie" value="https://www.youtube.com/v/v=PxdnOPFBDqk;rel=0&amp;fs=1">
+          <param name="allowScriptAcess" value="sameDomain">
+          <param name="quality" value="best">
+          <param name="bgcolor" value="#FFFFFF">
+          <param name="scale" value="noScale">
+          <param name="salign" value="TL">
+          <param name="FlashVars" value="playerMode=embedded">
+          <param name="wmode" value="transparent">
+        </object></div></div></div>
+        <div class="w3-col m1">
+        <div class="robot-embedded-videos"><a id="robot_em_video"><p>&nbsp;</p></a> 
+        <div id="video_cck_youtube_flash_wrapper_5"><object type="application/x-shockwave-flash" height="350" width="425" data="https://www.youtube.com/v/fU6StR5Ct3s&amp;rel=0&amp;fs=1" id="video-cck-youtube-flash-5">
+          <param name="movie" value="https://www.youtube.com/v/fU6StR5Ct3s&amp;rel=0&amp;fs=1"> 
+         <param name="movie" value="https://www.youtube.com/v/v=PxdnOPFBDqk;rel=0&amp;fs=1">
+          <param name="allowScriptAcess" value="sameDomain">
+          <param name="quality" value="best">
+          <param name="bgcolor" value="#FFFFFF">
+          <param name="scale" value="noScale">
+          <param name="salign" value="TL">
+          <param name="FlashVars" value="playerMode=embedded">
+          <param name="wmode" value="transparent">
+        </object></div> </div></div>
+    
+</div> </div>
+<!--      <img class="w3-image w3-round-large" src="images/block.jpg" alt="Buildings" style="width:60%">
+ -->     <!--  <img class="w3-image w3-round-large" src="images/block1.jpg" alt="Buildings" style="width:60%"> -->
+
+
 
 <!-- About Section -->
 <div class="w3-container w3-padding-128" id="about">
@@ -93,7 +132,7 @@ Just as the alphabets becomes words and build amazing stories, just as seven not
 At the core, QTPi runs on the revolutionary chipset, Arduino, that best suits for learning purposes. 
 Science is continuously evolving. <br>
 At the ebb of this expansion is technological innovation in robotics.
-Some are perceivable, some are not.<img src="images/2a.jpg" width="400" height="300" align="right">
+Some are perceivable, some are not.<img src="images/2a.jpg" align="right" class="w3-round-large" style="width:30%">
 In an all-consuming, all digital world that would in future, be increasingly dependent, learning about how robots and automation work is truly necessary for everyone, especially our children. 
 As the Internet is spreading wings, and getting all the tangible, and intangible stuff from our everyday lives connected to it, in order to make everything most useful and efficient, at the core lies robotics and artificial intelligence.
 Touch, see, and feel the learning.<br>
@@ -138,8 +177,9 @@ Come and join us!
       <p>we have our own building block so we can build our own design. <br>we can also make our own building block structure through 3D-printer.</p>
       <p><a href="#work" class="w3-btn"><i class="fa fa-th"></i> View Our Works</a></p>
     </div>
+    
     <div class="w3-col m6">
-      <img class="w3-image w3-round-large" src="images/4a.jpg" alt="Buildings" width="700" height="394">
+      <img class="w3-image w3-round-large" src="images/3d.jpg" alt="Buildings" style="width:60%">
     </div>
   </div>
 </div>
@@ -197,7 +237,7 @@ Come and join us!
 </div>
  -->
 <!-- Promo Section "Statistics" -->
-<div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+<!-- <div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64"> -->
  <!--  <div class="w3-quarter">
     <span class="w3-xxlarge">14+</span>
     <br>Partners
@@ -214,7 +254,7 @@ Come and join us!
     <span class="w3-xxlarge">150+</span>
     <br>Meetings
   </div> -->
-</div>
+<!-- </div> -->
 
 <!-- Work Section -->
 <div class="w3-container w3-padding-128" id="work">
