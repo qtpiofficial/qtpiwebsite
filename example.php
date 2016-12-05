@@ -1,3 +1,5 @@
+<html>
+    <body>
 <?php
 
 require 'class.phpmailer.php';
@@ -38,3 +40,5 @@ if(!$mail->send()) {
 }
 
 ?>
+    </body>
+    </html>
