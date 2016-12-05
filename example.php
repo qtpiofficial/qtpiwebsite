@@ -2,7 +2,7 @@
     <body>
 <?php
 
-require 'class.phpmailer.php';
+require 'PHPMailerAutoload.php';
 
 $mail = new PHPMailer;
 
