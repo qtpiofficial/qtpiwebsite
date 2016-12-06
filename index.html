@@ -59,6 +59,7 @@ body, html {
       <a href="#about">ABOUT</a>
       <!-- <a href="#team"><i class="fa fa-user"></i> TEAM</a> -->
       <a href="#work"><i class="fa fa-th"></i> WORK</a>
+      <a href="#videos"><i class="fa fa-video-camera"></i> VIDEOS</a>
       <a href="#events"><i class="fa fa-calendar-check-o"></i> EVENTS</a>
       <a href="#contact"><i class="fa fa-envelope"></i> CONTACT</a>
     </li>
@@ -77,6 +78,7 @@ body, html {
   <a href="#home" onclick="w3_close()">HOME</a>
   <a href="#about" onclick="w3_close()">ABOUT</a>
   <a href="#work" onclick="w3_close()">WORK</a>
+  <a href="#videos" onclick="w3_close()">VIDEOS</a>
   <a href="#events" onclick="w3_close()">EVENTS</a>
   <a href="#contact" onclick="w3_close()">CONTACT</a>
 </nav>
@@ -117,8 +119,8 @@ body, html {
 
 
 <!--videos-->
-<div class="w3-container w3-light-grey">
-<h3>Videos</h3>
+<div class="w3-container w3-light-grey" id="videos">
+<h3 align="center">Videos</h3>
 <div class="w3-row">
 <div class="w3-third w3-container">
   <h4>Bubble Blower</h4>
@@ -222,6 +224,36 @@ Come and join us!
   </div>
 </div>
 
+<div class="w3-container w3-padding-64">
+  <div class="w3-row-padding" style="row-gap: 40px;">
+    <div class="w3-third">
+      <h3>Building Blocks</h3>
+      <p>You can create your own design using our building blocks</p>
+    </div>
+    <div class="w3-third">
+      <img class="w3-image w3-round-large" src="images/block3.jpg" alt="Buildings" style="width:80%">
+    </div>
+      <div class="w3-third">
+      <img class="w3-image w3-round-large" src="images/block5.jpg" alt="Buildings" style="width:80%">
+      </div>
+  </div>
+  <div class="w3-row-padding w3-padding-24"></div>
+  <div class="w3-row-padding ">
+
+    <div class="w3-third">
+      <img class="w3-image w3-round-large" src="images/block1.jpg" alt="Buildings" style="width:80%">
+    </div>
+      <div class="w3-third">
+      <img class="w3-image w3-round-large" src="images/block6.jpg" alt="Buildings" style="width:80%">
+      </div>
+      <div class="w3-third">
+      <img class="w3-image w3-round-large" src="images/block.jpg" alt="Buildings" style="width:80%">
+      </div>
+  </div>
+</div>
+
+
+
 <!-- Work Section -->
 <div class="w3-container w3-padding-128" id="work">
   <h3 class="w3-center">OUR WORK</h3>
@@ -318,7 +350,7 @@ Electronic City Bangalore 560100</p>
 
     </div>
     <div class="w3-half">
-        <form action="MAILTO:nitin@qtpi.in" method="post" enctype="text/plain">
+        <form action="" method="post" enctype="text/plain">
         <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="name"></p>
         <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="email"></p>
         <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="subject"></p>
@@ -374,7 +406,8 @@ function w3_open() {
 function w3_close() {
     mySidenav.style.display = "none";
 }
-</script>
+
+t</script>
 
 </body>
 </html>
